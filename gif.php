@@ -1,8 +1,3 @@
-<html>
-   <head>
-      <title>Home</title>
-   </head>
-   <body>
 <?php
 
 	//Leave all this stuff as it is
@@ -72,6 +67,3 @@
 	header( 'Pragma: no-cache' );
 	$gif = new AnimatedGif($frames,$delays,$loops);
 	$gif->display();
-/>
- </body>
-</html
